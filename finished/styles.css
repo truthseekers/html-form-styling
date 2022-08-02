@@ -1,0 +1,48 @@
+form {
+  background-color: gray;
+  padding: 25px;
+  width: 25%;
+  border-radius: 15px;
+}
+
+input {
+  border: 2px solid red;
+  margin: 20px;
+  color: darkviolet;
+  font-weight: bold;
+  outline: none;
+}
+
+input::placeholder {
+  color: red;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  background-color: chartreuse;
+}
+
+input[type="password"] {
+  background-color: black;
+  color: hotpink;
+}
+
+input[type="password"]:focus {
+  background-color: yellow;
+  border: 20px solid purple;
+}
+
+label {
+  background-color: aqua;
+}
+
+textarea {
+  background-color: pink;
+  border: 2px solid brown;
+  border-radius: 50px;
+}
+
+textarea:focus {
+  outline: none;
+  border: 5px solid chartreuse;
+}
